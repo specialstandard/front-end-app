@@ -6,7 +6,8 @@ import { mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 import App from './App';
-const API_URL = './next.json';
+
+const API_URL = 'https://s3-ap-southeast-2.amazonaws.com/bet-easy-code-challenge/next-to-jump';
 
 configure({ adapter: new Adapter() });
 

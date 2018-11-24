@@ -4,8 +4,7 @@ import moment from 'moment';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-const API_URL = './next.json';
-// const API_URL = 'https://s3-ap-southeast-2.amazonaws.com/bet-easy-code-challenge/next-to-jump';
+const API_URL = 'https://s3-ap-southeast-2.amazonaws.com/bet-easy-code-challenge/next-to-jump';
 
 class App extends Component {
 
@@ -53,8 +52,7 @@ class App extends Component {
                         Race {row.RaceNumber}
                     </span>
                     <span className="resultItem startTime col-xs-5">
-                        {
-                            moment(row.AdvertisedStartTime)
+                        {moment(row.AdvertisedStartTime)
                             .format("YYYY/MM/DD HH:mm").toString()
                         }
                     </span>
