@@ -2,9 +2,15 @@
 1.	Create a way for users to filter races by type
 2.	Add error handling to handle error response codes from the API
 
-### Installation Instructions: Clone this repository and then run `npm i`
+### Installation Instructions:
+
+### Clone this repository
 `git clone https://github.com/specialstandard/front-end-app.git`
+
+### Change to app folder
 `cd front-end-app`
+
+### install npm packages
 `npm i`
 
 ## Available Scripts
